@@ -1,0 +1,6 @@
+def fibanaci(n):
+    if n ==1 or n==2:
+        return 1
+    else:
+        return fibanaci(n-1)+fibanaci(n-1)
+print(fibanaci(12))
