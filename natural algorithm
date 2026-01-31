@@ -1,0 +1,7 @@
+import math 
+num = float(input("enter the number :"))
+if num <=0:
+    print("please enter a psitive number :")
+else:
+    result=math.log(num)
+    print("the natural logarithm of {num} is :{result}")
